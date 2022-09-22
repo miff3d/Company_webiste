@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <title>About Us</title>
+    <body>
+        <div class="navigation">
+                
+            <nav>
+                <img src="/BULKY.png" class="logo">
+                <ul>
+                    <li><a href="/Index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+                <a href="#" class="btn">cart</a>
+            </nav>
+            
+        </div>
+        <div class="about">
+            <h2>About Us</h2>
+            <div class="about__content">
+                    <p>The company was started in the hope to completely recvlutionize the wholesale shopping experience</p>
+                    <p>We allow our customers to make an order of the items in bulk at a subsidised price. With an innovative mobile application, wholesale goods at discounted prices are delivered straight to your doorstep. You also have the option of visiting the Bulc stores where your shopping experience is sure to be redefined.
+                        The unique experience allows you to order your goods at the front desk and comfortably lounge around as your order is brought to you!</p> <br>
+            </div>
+            
+        </div>
+        <div class="why">
+            <h2>Why us</h2>
+            <div class="why__content">
+                <p>The Bulc experience leaves you with extra time on your hands to do what you actually like doing.<br>
+                    Bulc eliminates both the wait and the inconvenience of wholesale shopping with a unique business model instore and online. <br>
+                    Access to quality goods at lower prices all while navigating through a friendly shopping experience.</p>
+    
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p style="color: azure;">Copyright © <span id="year" style="color: #41a514;"></span> All rights reserved by Miffed</p>
+            <br> 
+            <div class="wrapper">
+                <a href="#" class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+                <a href="#" class="icon youtube">
+                  <div class="tooltip">Youtube</div>
+                  <span><i class="fab fa-youtube"></i></span>
+                </a>
+              </div>
+        </div>
+
+        <script>
+            var a = new Date().getFullYear();
+            console.log('This is todays date', a);
+
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>
